@@ -11,6 +11,8 @@ import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 
+import { Skeleton } from "@/components/ui/skeleton"
+
 interface Recipe {
   title: string;
   image: string;
